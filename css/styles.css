@@ -1,0 +1,235 @@
+/*  
+ * This is an external CSS file that styles an HTML file
+ * for a website that promotes an application called 
+ * 'HabitHelper'. The 'HabitHelper' is a fake app that
+ * can be downloaded for free or can be downloaded for a
+ * price that unlocks additional features in this
+ * hypothetical application. The CSS file styles the 
+ * structure of the website promoting this hypothetical 
+ * app with an emphasis on each section of the website.
+ * Code refactoring was an important component of this
+ * CSS file. A major feature of the CSS is alternating
+ * colors throughout the sections of the website, which
+ * are navy blue and white.
+ *
+ * Author: Andrew Krause
+ * Date: 06/30/2021
+ *
+ */
+
+/**************** Tag Selectors (Global variables) ****************/
+
+/* Make all the font in the body of the HTML Montserrat */
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+/* Style all headings with a font family type */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+}
+
+/* Change the color of all paragraph elements to black */
+p {
+    color: #000000;
+}
+
+/*************************** Containers ***************************/
+
+/* Style the front page heading, which contains an image and buttons */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/**************************** Sections ****************************/
+
+/* Style each section that is the 'colored-section' blue */
+.colored-section {
+    background-color: #000080;
+    color: #ffffff;
+}
+
+/* Style each section that is the 'white-section' white */
+.white-section {
+    background-color: #ffffff;
+}
+
+/***************************** Headings *****************************/
+
+/* Style the main title text of the front page heading */
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #5BBEFB;
+}
+
+/* Style the heading in the 'pricing-section' of the HTML structure */
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/************************** Navigation Bar **************************/
+
+/* For class order, you go from less specific to more specific usually */
+/* Style the navigation bar; create a padding */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+/* Style the brand in the navigation bar */
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+/* Style the navigation bar items (Contact, Pricing, Downloads) */
+.nav-item {
+    padding: 0 18px;
+}
+
+/* Style the navigation bar links */
+.nav-link {
+    font-weight: 1.2rem;
+}
+
+/************************* Download Buttons *************************/
+
+/* Set the margin for the download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*************************** Title Section ***************************/
+
+/* We can specify how we want a particular class to behave within a section */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Change the size of the title image */
+.title-image {
+    size: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+
+/* Add a media queary to make the title image responsive */
+@media (max-width: 995px) {
+    /* Align the text to the center as the screen size shrinks */
+    #title .container-fluid {
+        text-align: center;
+    }
+    
+    /* Change the layout of the title image as the screen size shrinks */
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        text-align: center;
+    }
+}
+
+/* Add a second media queary to make the title image responsive */
+@media (max-width: 1200px) {
+    /* Adjust the right margin of the title image to avoid overlap */
+    .title-image {
+        right: 13%;
+    }
+}
+
+/************************* Features Section *************************/
+
+/* Change color of text in features to grey (applies to smaller text) */
+#features {
+    color: /*#575757*/ #000000;
+    position: relative;
+    z-index: 1; /* You technically do not need this because the other element is also positioned */
+}
+
+/* Align the elements and center the text */
+.feature-box {
+    padding: 5%;
+}
+
+/* Set the icon color, font size and padding for the text */
+.feature-icon {
+    color: #000080;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+/* Create a pseudo class for hover state for the 'features' icons --> Maybe uncomment later
+.feature-icon:hover {
+    color: #5BBEFB;
+} */
+
+/* For the feature section of the website, set the font size */
+.feature-text {
+    size: 1.5rem; 
+}
+
+/************************ Testimonials Section ************************/
+
+/* modify the testimonial images */
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Set the font size and line height for the text in the testimonials */
+.testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/*************************** Press Section ***************************/
+
+/* Create a background for the press section and style the text */
+#press {
+    padding-bottom: 3%;
+}
+
+/* For each press logo, modify the width and margin */
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/************************** Pricing Section **************************/
+
+/* Style the text and create padding around the card stack */
+#pricing {
+    font-family: "Montserrat";
+    background-color: #ffffff;
+}
+
+/* Style each pricing card so that there is padding */
+.col-pricing {
+    padding: 3% 2%;
+}
+
+/* Set the text in the pricing section */
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/************************** Footer Section **************************/
+
+/* Change the attribution text size */
+.attribution-text {
+    font-size: 1rem;
+}
+
+/* Space out icons at bottom of website in footer section */
+.footer-icon {
+    margin: 20px 10px;
+}
+
+
