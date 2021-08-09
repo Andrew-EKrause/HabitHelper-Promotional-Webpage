@@ -5,7 +5,7 @@ https://krause2023.github.io/App-Promotion-Webpage/
 <p>&nbsp;</p>
 
 ## Description
-**_Personal Website to Help Showcase my Skill Set_** <br/>
+**_Promotional Webpage that Utilizes the Bootstrap Library_** <br/>
 The application being promoted by this webpage does not exist. The webpage designed in this project promotes a hypothetical application called 'HabitHelper'. The webpage was designed for the sole purpose of exploring clean design techniques as well as making a site responsive to the display environment. A major component of the page was incorporating the Bootstrap library framework to help with styling. Key features of the webpage include its responsiveness to changing screen sizes as well as different device views such as on an iPhone or iPad. Bootstrap, which serves as a framework for CSS in styling websites, made the responsiveness feature of the webpage possible. Other aspects of Bootstrap, such as the Bootstrap Carousel and Bootstrap Navbar, were built into the structure of the webpage. Future updates to the webpage may be to include additonal pages as well as develop an actual app that the site can promote as opposed to a pseudo application.
 
 **Resources for Project:**
