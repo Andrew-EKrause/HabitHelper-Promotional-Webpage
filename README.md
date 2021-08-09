@@ -16,6 +16,8 @@ The application being promoted by this webpage does not exist. The webpage desig
 - MDN Web Docs: https://developer.mozilla.org/en-US/
 - Google Fonts: https://fonts.google.com/
 - Font Awesome: https://fontawesome.com/
+- flaticon: https://www.flaticon.com/
+- Giphy: https://giphy.com/
 - SneakPeakIt: https://sneakpeekit.com/
 - Submarine Cable Map: https://www.submarinecablemap.com/
 <p>&nbsp;</p>
