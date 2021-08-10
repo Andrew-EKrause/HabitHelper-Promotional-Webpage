@@ -1,5 +1,5 @@
 # *HabitHelper App Promotion Webpage*
-## View the Project Here:
+## View the Project Here
 https://krause2023.github.io/App-Promotion-Webpage/
 
 <p>&nbsp;</p>
