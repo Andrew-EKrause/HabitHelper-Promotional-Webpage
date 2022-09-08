@@ -4,7 +4,7 @@
 <p>&nbsp;</p>
 
 ###### Home Page of HabitHelper
-<img width="1522" alt="apppromotion" src="https://user-images.githubusercontent.com/57727121/189040196-eef7165e-ba6c-4785-963b-d1554b2af8c7.png">
+<img width="1680" alt="Screen Shot 2022-09-08 at 12 27 36 AM" src="https://user-images.githubusercontent.com/57727121/189041418-2cec9b2e-6ac0-4b3c-be1d-edd606bd7502.png">
 
 ## Description
 **_Promotional Webpage that Utilizes the Bootstrap Library_** <br/>
